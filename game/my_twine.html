@@ -11,45 +11,53 @@
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play my_twine.</tw-noscript></noscript></tw-story>
 <tw-storydata name="my_twine" startnode="1" creator="Twine" creator-version="2.3.16" ifid="5914EF0A-8C22-44B9-8D70-5F25C84F39C9" zoom="1" format="Harlowe" format-version="3.2.3" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">body, tw-story 
 {
-  background-color: #172774; 
-  color: #EEEEEE;
+  background-color: #FFFFFF; 
+  color: #000000;
   font-family: 'PT Sans Caption', sans-serif;
   font-size: 1.1em;
 }
 tw-link, 
 .enchantment-link 
 {   
-  color: #FF0075; 
+  color: #0000FF; 
 }
 .visited 
 {    
-  color: #FF0075;
+  color: #800080;
+}
+tw-story[tags~="begin"] 
+{
+  background-image: url("https://jyao56.github.io/twine/images/background.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }</style><script role="script" id="twine-user-script" type="text/twine-javascript">var audio= document.createElement('audio');
 audio.src='https://jyao56.github.io/twine/images/rain.mp3';
 audio.loop = true;
-audio.play();</script><tw-passagedata pid="1" name="Main Passage" tags="" position="620,239.5" size="100,100">After going to a party thrown by friends, you&#39;ve been informed that someone at that party tested positive for Covid-19. 
-Congratulations and welcome to your first day of [[Quarantine Simulator-&gt;Day1]]! 
-&lt;img src=&quot;https://jyao56.github.io/twine/images/background.jpeg&quot;&gt;</tw-passagedata><tw-passagedata pid="2" name="Day1" tags="" position="620,389.5" size="100,100">It&#39;s the first day of your quarantine. Looks like it&#39;s going to be just you and yourself for a while. To celebrate this alone time, you decide to [[read a good book-&gt;Book]] or [[scroll through TikTok videos-&gt;Phone]].</tw-passagedata><tw-passagedata pid="3" name="Book" tags="" position="545,539.5" size="100,100">Without external attractions, you find it easy to focus and finished the book while learning something new. (set: $mentalHP to it + 1)
+audio.play();</script><tw-passagedata pid="1" name="Main Passage" tags="begin" position="620,239.5" size="100,100">(text-style:&quot;outline&quot;)
+[
+#Quarantine Simulator
+After going to a party thrown by friends, you&#39;ve been informed that someone at that party tested positive for Covid-19. 
+Congratulations and welcome to your first day of [[Quarantine Simulator-&gt;Day1]]!]</tw-passagedata><tw-passagedata pid="2" name="Day1" tags="" position="620,389.5" size="100,100">It&#39;s the first day of your quarantine. Looks like it&#39;s going to be just you and yourself for a while. To celebrate this alone time, you decide to [[read a good book-&gt;Book]] or [[scroll through TikTok videos-&gt;Phone]].</tw-passagedata><tw-passagedata pid="3" name="Book" tags="" position="545,539.5" size="100,100">Without external attractions, you find it easy to focus and finished the book while learning something new. (set: $mentalHP to it + 1)
 It&#39;s now [[day 2-&gt;Day2]].
-&lt;img src=&quot;https://jyao56.github.io/twine/images/book.gif&quot;&gt;</tw-passagedata><tw-passagedata pid="4" name="Phone" tags="" position="695,539.5" size="100,100">The endless scrolling makes you nauseous eventually, and you fell asleep at 3AM, waking up more tired than ever. 
+&lt;img src=&quot;https://jyao56.github.io/twine/images/read.gif&quot; width=&quot;500&quot; height=&quot;500&quot;&gt;</tw-passagedata><tw-passagedata pid="4" name="Phone" tags="" position="695,539.5" size="100,100">The endless scrolling makes you nauseous eventually, and you fell asleep at 3AM, waking up more tired than ever. 
 It&#39;s now [[day 2-&gt;Day2]].
-&lt;img src=&quot;https://jyao56.github.io/twine/images/phone.jpg&quot;&gt;</tw-passagedata><tw-passagedata pid="5" name="Day2" tags="" position="624,690.5" size="100,100">You wake up and decide to make yourself breakfast. Knowing that being cooped inside your room isn&#39;t burning a whole lot of calories compared to normal days, you decide to [[exercise -&gt; Exercise]] or [[watch Netflix all day-&gt;TV]].</tw-passagedata><tw-passagedata pid="6" name=" Exercise" tags="" position="549,840.5" size="100,100">After a thorough exercise, every muscle in your body is awake and you felt more energetic than ever. (set: $mentalHP to it + 1)
+&lt;img src=&quot;https://jyao56.github.io/twine/images/tiktok.JPG&quot; width=&quot;500&quot; height=&quot;500&quot;&gt;</tw-passagedata><tw-passagedata pid="5" name="Day2" tags="" position="624,690.5" size="100,100">You wake up and decide to make yourself breakfast. Knowing that being cooped inside your room isn&#39;t burning a whole lot of calories compared to normal days, you decide to [[exercise -&gt; Exercise]] or [[watch Netflix all day-&gt;TV]].</tw-passagedata><tw-passagedata pid="6" name=" Exercise" tags="" position="549,840.5" size="100,100">After a thorough exercise, every muscle in your body is awake and you felt more energetic than ever. (set: $mentalHP to it + 1)
 It&#39;s now [[day 3-&gt;Day3]].
-&lt;img src=&quot;https://jyao56.github.io/twine/images/exercise.gif&quot;&gt;</tw-passagedata><tw-passagedata pid="7" name="TV" tags="" position="699,840.5" size="100,100">You curled on the couch with a blanket and some chips, pulled an all-nighter and watched all 9 episodes of Squid Game. 
+&lt;img src=&quot;https://jyao56.github.io/twine/images/exercise.gif&quot; width=&quot;500&quot; height=&quot;500&quot;&gt;</tw-passagedata><tw-passagedata pid="7" name="TV" tags="" position="699,840.5" size="100,100">You curled on the couch with a blanket and some chips, pulled an all-nighter and watched all 9 episodes of Squid Game. 
 It&#39;s now [[day 3-&gt;Day3]].
-&lt;img src=&quot;https://jyao56.github.io/twine/images/tv.jpg&quot;&gt;</tw-passagedata><tw-passagedata pid="8" name="Day3" tags="" position="620,990.5" size="100,100">The first wave of happiness from being alone is gone, and now you start to miss your friends and family. You spent the day [[facetiming loved ones-&gt;Chat]] or [[sound asleep-&gt;Sleep]].</tw-passagedata><tw-passagedata pid="9" name="Chat" tags="" position="545,1140.5" size="100,100">You asked your family how they are doing, and are relieved to learn that they&#39;re doing well. (set: $mentalHP to it + 1)
+&lt;img src=&quot;https://jyao56.github.io/twine/images/netflix.JPG&quot; width=&quot;500&quot; height=&quot;500&quot;&gt;</tw-passagedata><tw-passagedata pid="8" name="Day3" tags="" position="620,990.5" size="100,100">The first wave of happiness from being alone is gone, and now you start to miss your friends and family. You spent the day [[facetiming loved ones-&gt;Chat]] or [[sound asleep-&gt;Sleep]].</tw-passagedata><tw-passagedata pid="9" name="Chat" tags="" position="545,1140.5" size="100,100">You asked your family how they are doing, and are relieved to learn that they&#39;re doing well. (set: $mentalHP to it + 1)
 It&#39;s now [[day 4-&gt;Day4]].
-&lt;img src=&quot;https://jyao56.github.io/twine/images/chat.jpg&quot;&gt;</tw-passagedata><tw-passagedata pid="10" name="Sleep" tags="" position="695,1140.5" size="100,100">You slept through the day and woke up in the evening. Watching the sunset in your room all by yourself, you felt more alone than ever. 
+&lt;img src=&quot;https://jyao56.github.io/twine/images/chat.JPG&quot; width=&quot;500&quot; height=&quot;500&quot;&gt;</tw-passagedata><tw-passagedata pid="10" name="Sleep" tags="" position="695,1140.5" size="100,100">You slept through the day and woke up in the evening. Watching the sunset in your room all by yourself, you felt more alone than ever. 
 It&#39;s now [[day 4-&gt;Day4]].
-&lt;img src=&quot;https://jyao56.github.io/twine/images/sleep.jpg&quot;&gt;</tw-passagedata><tw-passagedata pid="11" name="Day4" tags="" position="614,1290.5" size="100,100">There&#39;s only two days left in your quarantine! Realizing that you need to go back to school right after this, you decide to [[catch up school work-&gt;Study]] or [[cover up your depression by getting drunk-&gt;Drunk]].</tw-passagedata><tw-passagedata pid="12" name="Study" tags="" position="539,1440.5" size="100,100">You spent the day studying for DMS103 and found yourself able to remember everything on the review sheet. (set: $mentalHP to it + 1)
+&lt;img src=&quot;https://jyao56.github.io/twine/images/sleep.JPG&quot; width=&quot;500&quot; height=&quot;500&quot;&gt;</tw-passagedata><tw-passagedata pid="11" name="Day4" tags="" position="614,1290.5" size="100,100">There&#39;s only two days left in your quarantine! Realizing that you need to go back to school right after this, you decide to [[catch up school work-&gt;Study]] or [[cover up your depression by getting drunk-&gt;Drunk]].</tw-passagedata><tw-passagedata pid="12" name="Study" tags="" position="539,1440.5" size="100,100">You spent the day studying for DMS103 and found yourself able to remember everything on the review sheet. (set: $mentalHP to it + 1)
 It&#39;s now [[day 5-&gt;Day5]].
-&lt;img src=&quot;https://jyao56.github.io/twine/images/work.jpg&quot;&gt;</tw-passagedata><tw-passagedata pid="13" name="Drunk" tags="" position="689,1440.5" size="100,100">Numbing your nerves and soul with alcohol, you pretended that it&#39;s just another day at a party. Except you&#39;re alone.
+&lt;img src=&quot;https://jyao56.github.io/twine/images/work.JPG&quot; width=&quot;500&quot; height=&quot;500&quot;&gt;</tw-passagedata><tw-passagedata pid="13" name="Drunk" tags="" position="689,1440.5" size="100,100">Numbing your nerves and soul with alcohol, you pretended that it&#39;s just another day at a party. Except you&#39;re alone.
 It&#39;s now [[day 5-&gt;Day5]].
-&lt;img src=&quot;https://jyao56.github.io/twine/images/beer.jpg&quot;&gt;</tw-passagedata><tw-passagedata pid="14" name="Day5" tags="" position="604,1590.5" size="100,100">It&#39;s the final day of your quarantine. After not leaving your room for 5 days straight, you [[cleaned the room -&gt; Clean]] or [[found a game online -&gt; Game]].</tw-passagedata><tw-passagedata pid="15" name=" Clean" tags="" position="529,1740.5" size="100,100">After cleaning your room from top to bottom, it now looks even nicer than when you started quarantine. (set: $mentalHP to it + 1)
+&lt;img src=&quot;https://jyao56.github.io/twine/images/drink.JPG&quot; width=&quot;500&quot; height=&quot;500&quot;&gt;</tw-passagedata><tw-passagedata pid="14" name="Day5" tags="" position="604,1590.5" size="100,100">It&#39;s the final day of your quarantine. After not leaving your room for 5 days straight, you [[cleaned the room -&gt; Clean]] or [[found a game online -&gt; Game]].</tw-passagedata><tw-passagedata pid="15" name=" Clean" tags="" position="529,1740.5" size="100,100">After cleaning your room from top to bottom, it now looks even nicer than when you started quarantine. (set: $mentalHP to it + 1)
 You used a [[self-test kit-&gt;Result]] to determine if you can return to normal life.
-&lt;img src=&quot;https://jyao56.github.io/twine/images/clean.jpg&quot;&gt;</tw-passagedata><tw-passagedata pid="16" name=" Game" tags="" position="679,1740.5" size="100,100">The newly found game called Quarantine Simulator is really addictive, you totally forgot the time and your eyes started hurting. 
+&lt;img src=&quot;https://jyao56.github.io/twine/images/clean.JPG&quot; width=&quot;500&quot; height=&quot;500&quot;&gt;</tw-passagedata><tw-passagedata pid="16" name=" Game" tags="" position="679,1740.5" size="100,100">The newly found game called Quarantine Simulator is really addictive, you totally forgot the time and your eyes started hurting. 
 You used a [[self-test kit-&gt;Result]] to determine if you can return to normal life.
-&lt;img src=&quot;https://jyao56.github.io/twine/images/game.jpg&quot;&gt;</tw-passagedata><tw-passagedata pid="17" name="startup" tags="startup" position="870,267.5" size="100,100">{
+&lt;img src=&quot;https://jyao56.github.io/twine/images/game.JPG&quot; width=&quot;500&quot; height=&quot;500&quot;&gt;</tw-passagedata><tw-passagedata pid="17" name="startup" tags="startup" position="870,267.5" size="100,100">{
 (set: $mentalHP to 0)
 }</tw-passagedata><tw-passagedata pid="18" name="Result" tags="" position="611,1893.5" size="100,100">Your total mental health points is $mentalHP.
 {(set: $result to (random: 1, 2))}
